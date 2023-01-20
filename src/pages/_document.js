@@ -36,16 +36,16 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/merith.png" />
-          <meta name="title" content="Merith NDOLO - Fullstack Dev" />
+          <meta name="title" content="Joel Pokam Dev Front" />
           <meta
             name="description"
-            content="Hey salut, je suis Merith NDOLO dev full stack pour des apps web, mobiles et desktop. J'ai aussi de l'expertise sur des tâches de DevOps"
+            content="Hey salut, je suis Joel Pokam dev front end pour des apps web, mobiles et desktop."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Merith NDOLO - Fullstack Dev" />
+          <meta property="og:title" content="Joel Pokam - FrontEnd Dev" />
           <meta
             property="og:description"
-            content="Hey salut, je suis Merith NDOLO dev full stack pour des apps web, mobiles et desktop. J'ai aussi de l'expertise sur des tâches de DevOps"
+            content="Hey salut, je suis Joel Pokam dev front end pour des apps web, mobiles et desktop."
           />
         </Head>
         <body>

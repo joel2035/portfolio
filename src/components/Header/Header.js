@@ -21,7 +21,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <img src="/merith.png" height={40} width={40} />{" "}
+          <img src="/joel.png" height={40} width={40} />{" "}
           <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
            Pokam Joel
           </span>

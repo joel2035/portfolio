@@ -8,10 +8,9 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { level: "Dut/Licence", text: "Génie pétrolier" },
-  { level: "Bac+2", text: "Développement et intégration web" },
-  { level: "Bac+3/4", text: "Développement web et Mobile" },
-  { level: "BAC+5", text: "Master CTO & Tech Lead" },
+  { level: "Bachelor web", text: "Développement et intégration web" },
+  { level: "Bac+3", text: "Développement web et Mobile" },
+  { level: "BAC+4/5", text: "Master CTO & Tech Lead" },
 ];
 
 const Acomplishments = () => (

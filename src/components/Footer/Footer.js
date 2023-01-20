@@ -27,12 +27,12 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://t.me/Armani113">Telegram</LinkItem>
+          <LinkItem href="https://t.me/joel2036">Telegram</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:merithndolo@gmail.com">
-            merithndolo@gmail.com
+          <LinkItem href="mailto:joel2035@yahoo.fr">
+           joel2035@yahoo.fr
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -40,24 +40,21 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>
             &copy; {new Date().getFullYear()}{" "}
-            <Link href="https://www.merithndolo.com"> Merith NDOLO</Link> . Tous
+            <Link href="https://www.joelpokam.com"> Joel Pokam</Link> . Tous
             droits réservés.
           </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/Merith-Ndolo/" target="_blank">
+          <SocialIcons href="https://github.com/joel2035" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://gitlab.com/Merith-Magni" target="_blank">
-            <AiFillGitlab size="3rem" />
-          </SocialIcons>
           <SocialIcons
-            href="https://www.linkedin.com/in/merith-ndolo/"
+            href="https://www.linkedin.com/in/joelpokam/"
             target="_blank"
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="mailto:merithndolo@gmail.com" target="_blank">
+          <SocialIcons href="mailto:joel2035@yahoo.fr" target="_blank">
             <AiFillMail size="3rem" />
           </SocialIcons>
         </SocialContainer>
