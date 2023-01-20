@@ -21,14 +21,16 @@ const Hero = (props) => (
           <TypingEffect
             staticText="Je suis"
             text={[
-              "Merith",
+              "Joel",
               "développeur",
-              "fullstack",
+              "Front End",
               "autodidacte",
               "diplômé Bac+5",
             ]}
           />
         </div>
+
+        //  The publish directory should be set to "out", and you should set the environment variable NETLIFY_NEXT_PLUGIN_SKIP to "true".
 
         <SectionText>
           Développeur Front End autodidacte et diplômé d'un{" "}

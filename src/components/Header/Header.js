@@ -46,20 +46,20 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/Merith-Ndolo/" target="_blank">
+      <SocialIcons href="https://github.com/joel2035" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://gitlab.com/Merith-Magni" target="_blank">
         <AiFillGitlab size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/merith-ndolo/"
+        href="https://www.linkedin.com/in/joelpokam/"
         target="_blank"
       >
-        <AiFillLinkedin size="3rem" />
+        <AiFillLinkedin size="3rem"/>
       </SocialIcons>
-      <SocialIcons href="mailto:merithndolo@gmail.com" target="_blank">
-        <AiFillMail size="3rem" />
+      <SocialIcons href="mailto:joel2035@yahoo.fr" target="_blank">
+        <AiFillMail size="3rem"/>
       </SocialIcons>
     </Div3>
   </Container>
