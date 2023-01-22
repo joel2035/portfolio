@@ -23,7 +23,7 @@ const Header = () => (
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           <img src="/joel.png" height={40} width={40} />{" "}
           <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }}>
-           Pokam Joel
+          Joel Pokam
           </span>
         </a>
       </Link>

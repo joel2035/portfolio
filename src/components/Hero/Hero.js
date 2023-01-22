@@ -29,9 +29,6 @@ const Hero = (props) => (
             ]}
           />
         </div>
-
-        //  The publish directory should be set to "out", and you should set the environment variable NETLIFY_NEXT_PLUGIN_SKIP to "true".
-
         <SectionText>
           Développeur Front End autodidacte et diplômé d'un{" "}
           <a
@@ -46,7 +43,7 @@ const Hero = (props) => (
           </a>{" "}
           ayant plus de 2 ans d'experience, je peux contribuer à la réalisation
           de vos sites, pages et applications à l'aide de ma connaissance du
-          développement front-end et back-end. Aussi porté vers le métier de{" "}
+          développement front-end  Aussi porté vers le métier de{" "}
           <a
             href="https://azure.microsoft.com/fr-fr/resources/cloud-computing-dictionary/what-is-devops/"
             style={{ color: "#13ADC7" }}
