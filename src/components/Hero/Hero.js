@@ -57,7 +57,7 @@ const Hero = (props) => (
         <Button
           onClick={(e) => {
             e.preventDefault();
-            window.open("/files/MerithDev.pdf", "_blank");
+            window.open("/files/Joel.pdf", "_blank");
           }}
         >
           Mon CV
