@@ -1,14 +1,12 @@
 import {
-  DiTerminal,
   DiJavascript,
-  DiDocker,
-  DiAws,
   DiDatabase,
+  DiAngularSimple,  
   DiPhp,
+  DiReact,
   DiGoogleAnalytics,
 } from "react-icons/di";
-import { SiGit, SiKubernetes, SiSentry, SiGithubactions } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
+import { SiGit, SiGithubactions } from "react-icons/si";
 
 export const Skills = [
   {
@@ -17,7 +15,7 @@ export const Skills = [
     title: "Javascript",
     Description: () => (
       <>
-        Nodejs et Nestjs en back, React.js, Nextjs en front et Typescript pour
+        React.js, Nextjs en front et Typescript pour
         le typage
       </>
     ),
@@ -29,22 +27,14 @@ export const Skills = [
     Description: () => <>Php natif, Symfony et CodeIgniter </>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
+    slug: "React Native",
+    Component: DiReact,
+    title: "React Native",
     Description: () => (
       <>
         {" "}
-        J'utilise flutter pour développer des applications mobiles Android/IOS
+        J'utilise React Native pour développer des applications mobiles Android/IOS
       </>
-    ),
-  },
-  {
-    slug: "terminal",
-    Component: DiTerminal,
-    title: "Scripting",
-    Description: () => (
-      <>J'écris des dizaines de scripts Shell à des fins diverses.</>
     ),
   },
   {
@@ -64,34 +54,12 @@ export const Skills = [
     ),
   },
   {
-    slug: "Docker",
-    Component: DiDocker,
-    title: "Docker",
+    slug: "Angular",
+    Component: DiAngularSimple,
+    title: "Angular",
     Description: () => (
       <>
-        Travailler avec des conteneurs afin de créer des stacks d'applications.{" "}
-      </>
-    ),
-  },
-  {
-    slug: "kubernetes",
-    Component: SiKubernetes,
-    title: "kubernetes",
-    Description: () => (
-      <>
-        Pour gérer l'automatisation de déploiement, la montée en charge et les
-        clusters des serveurs
-      </>
-    ),
-  },
-  {
-    slug: "AWS",
-    Component: DiAws,
-    title: "AWS",
-    Description: () => (
-      <>
-        Grande expérience d'ulisation des services comme EC2, RDS, S3, SDK et
-        Route 53
+        Pour le développement des sites web
       </>
     ),
   },
@@ -100,14 +68,6 @@ export const Skills = [
     Component: DiGoogleAnalytics,
     title: "Google Analytics",
     Description: () => <>Vue sur les audiences des sites Web</>,
-  },
-  {
-    slug: "sentry",
-    Component: SiSentry,
-    title: "Sentry",
-    Description: () => (
-      <>Pour faire du suivi des erreurs et la surveillance des performances</>
-    ),
   },
   {
     slug: "actions",
