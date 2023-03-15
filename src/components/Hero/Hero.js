@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 import {
   Section,
@@ -10,7 +11,24 @@ import Button from "../../styles/GlobalComponents/Button";
 import TypingEffect from "../typingEffect/typingEffect";
 import { LeftSection } from "./HeroStyles";
 
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <p className="text">
+      {isReadMore ? text.slice(0, 150) : text}
+      <span onClick={toggleReadMore} className="read-or-hide"  style={{ color: "#13ADC7" }}>
+        {isReadMore ? "...Voir plus" : " Voir moins"}
+      </span>
+    </p>
+  );
+};
+
 const Hero = (props) => (
+  
   <>
     <Section row nopadding>
       <LeftSection>
@@ -47,11 +65,13 @@ Diplômé d'un{" "}
             href="https://azure.microsoft.com/fr-fr/resources/cloud-computing-dictionary/what-is-devops/"
             style={{ color: "#13ADC7" }}
           >
-            DevOps
+            DevOps.
           </a>
-          , le déploiement et la gestion des sites Web, n’ont plus de secrets pour moi. 
+          <ReadMore>
+Le déploiement et la gestion des sites Web, n’ont plus de secrets pour moi. 
 Porté vers la résolution des problèmes complexes, et la recherche des solutions innovantes, c’est  avec enthousiasme que je travaille pour atteindre des résultats de qualité supérieure.
 Si vous recherchez un collaborateur motivé, polyvalent, et capable de relever des défis, n'hésitez pas à me contacter.
+          </ReadMore>
         </SectionText>
 
         <Button
