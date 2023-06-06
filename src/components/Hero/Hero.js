@@ -60,15 +60,9 @@ Diplômé d'un{" "}
           <a href="https://www.hetic.net/" style={{ color: "#13ADC7" }}>
             HETIC
           </a>{" "}
-          avec plus de 2 ans d'expérience, le métier de{" "}
-          <a
-            href="https://azure.microsoft.com/fr-fr/resources/cloud-computing-dictionary/what-is-devops/"
-            style={{ color: "#13ADC7" }}
-          >
-            DevOps.
-          </a>
+          avec plus de 2 ans d'expérience,
           <ReadMore>
-Le déploiement et la gestion des sites Web, n’ont plus de secrets pour moi. 
+le déploiement et la gestion des sites Web, n’ont plus de secrets pour moi. 
 Porté vers la résolution des problèmes complexes, et la recherche des solutions innovantes, c’est  avec enthousiasme que je travaille pour atteindre des résultats de qualité supérieure.
 Si vous recherchez un collaborateur motivé, polyvalent, et capable de relever des défis, n'hésitez pas à me contacter.
           </ReadMore>

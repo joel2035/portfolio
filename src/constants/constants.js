@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: "Madu",
-    description: "Application Mobile - madu : Madu est une application qui répertorie les lieux éco-responsables et qui nous met au défi concernant nos gestes du quotidien",
+    description: "Application Mobile - madu : Madu est une application qui identifie les lieux éco-responsables et qui nous met au défi concernant nos gestes du quotidien",
     image: "/images/madu.png",
     tags: ["React native", "SCSS"],
     source: "https://github.com/fedre30/Madu-app",
@@ -30,7 +30,7 @@ export const projects = [
   {
     title: "Xevent Dataviz",
     description:
-      "Application permetant de faire de l'analyse de log et l'afficeh sous forme de graphe",
+      "Application permettant de faire de l'analyse de log et les affichés  sous forme de graphe",
     image: "/images/xevent-dataviz.png",
     tags: ["Nextjs", "Nestjs", "MySQL"],
     source: "https://github.com/xeventDatavizProject/webapp",
