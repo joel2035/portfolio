@@ -48,7 +48,7 @@ const Hero = (props) => (
             ]}
           />
         </div>
-        <SectionText>
+        <SectionText style={{fontSize:"24px !important"}}>
         Infos 
 Autodidacte et passionné par le monde de la tech, en particulier le développement web, je mets au service de votre entreprise mes connaissances en développement Front End. Diplômé d'un{" "}
           <a
