@@ -72,7 +72,7 @@ export const TimeLineData = [
     text: "Stage Dev Front chez IDAMO",
   },
   { year: 2019, text: "Entrepreneur dans le secteur de l'informatique" },
-  { year: 2020, text: "Stage Dev Front chez Studely" },
+  { year: 2020, text: "Alternant Dev Front chez Studely" },
   { year: 2021, text: "Alternant Dev web chez Studely" },
   { year: 2023, text: "Alternant Dev web chez Studely " },
 ];
