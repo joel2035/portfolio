@@ -11,7 +11,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import TypingEffect from "../typingEffect/typingEffect";
 import { LeftSection } from "./HeroStyles";
 
-const ReadMore = ({ children }) => {
+ const ReadMore = ({ children }) => {
   const text = children;
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
@@ -48,8 +48,8 @@ const Hero = (props) => (
           />
         </div>
         <SectionText>
-        Autodidacte et passionné par le monde de la tech, en particulier le développement web, je peux mettre au service de votre entreprise mes connaissances en développement Front End. 
-Diplômé d'un{" "}
+        Infos
+Autodidacte et passionné par le monde de la tech, en particulier le développement web, je mets au service de votre entreprise mes connaissances en développement Front End. Diplômé d'un{" "}
           <a
             href="https://www.hetic.net/formations/mastere-cto-tech-lead"
             style={{ color: "#13ADC7" }}
@@ -60,12 +60,9 @@ Diplômé d'un{" "}
           <a href="https://www.hetic.net/" style={{ color: "#13ADC7" }}>
             HETIC
           </a>{" "}
-          avec plus de 2 ans d'expérience,
-          <ReadMore>
-le déploiement et la gestion des sites Web, n’ont plus de secrets pour moi. 
-Porté vers la résolution des problèmes complexes, et la recherche des solutions innovantes, c’est  avec enthousiasme que je travaille pour atteindre des résultats de qualité supérieure.
-Si vous recherchez un collaborateur motivé, polyvalent, et capable de relever des défis, n'hésitez pas à me contacter.
-          </ReadMore>
+          plus de 3 ans d'expérience, le métier de développeur Front End, le déploiement et la gestion des sites Web, n’ont plus de secrets pour moi. 
+Porté vers la résolution des problèmes complexes, et la recherche des solutions innovantes, c’est avec enthousiasme que je travaille pour atteindre des résultats de qualité supérieure.
+Vous recherchez un collaborateur motivé, polyvalent, et capable de relever des défis ? N'hésitez pas à me contacter !
         </SectionText>
 
         <Button
