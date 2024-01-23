@@ -11,7 +11,7 @@ import Button from "../../styles/GlobalComponents/Button";
 import TypingEffect from "../typingEffect/typingEffect";
 import { LeftSection } from "./HeroStyles";
 
- const ReadMore = ({ children }) => {
+ /* const ReadMore = ({ children }) => {
   const text = children;
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
@@ -26,6 +26,7 @@ import { LeftSection } from "./HeroStyles";
     </p>
   );
 };
+*/
 
 const Hero = (props) => (
   
