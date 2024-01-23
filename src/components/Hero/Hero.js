@@ -48,9 +48,9 @@ const Hero = (props) => (
             ]}
           />
         </div>
-        <SectionText style={{fontSize:"24px !important"}}>
+        <SectionText>
         Infos 
-Autodidacte et passionné par le monde de la tech, en particulier le développement web, je mets au service de votre entreprise mes connaissances en développement Front End. Diplômé d'un{" "}
+Autodidacte et passionné par le monde de la tech, en particulier le développement web, je mets au service de votre entreprise mes connaissances en développement Front End. <br/> Diplômé d'un{" "}
           <a
             href="https://www.hetic.net/formations/mastere-cto-tech-lead"
             style={{ color: "#13ADC7" }}

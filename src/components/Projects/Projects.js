@@ -49,15 +49,9 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-             { p.visit.map((v, i) => {
-               return  <ExternalLinks key={i}  href={v} target="_blank">
-               Live Preview
-             </ExternalLinks>
-             })}
-             <ExternalLinks  href={p.visit} target="_blank">
-               Live Preview
-             </ExternalLinks>
-             
+            {p.visit  && <ExternalLinks href={p.visit} target="_blank">
+                Live Preview
+              </ExternalLinks>}
               <ExternalLinks href={p.source}>Source Code</ExternalLinks>
             </UtilityList>
           </BlogCard>

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex"};
   flex-direction: ${(props) => props.row ? "row" : "column"};
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
+  padding: ${(props) => props.nopadding ? "0" : "20px 48px 0"} ;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
@@ -56,16 +56,16 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px !important;
-  line-height: 20px !important;
+  font-size: 20px;
+  line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 16px !important;
-    line-height: 20px !important;
+    font-size: 20px;
+    line-height: 32px;
     padding-bottom: 24px;
   }
 

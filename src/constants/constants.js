@@ -10,21 +10,21 @@ export const projects = [
     id: 0,
   },
   {
-    title: "Madu",
-    description: "Application Mobile - madu : Madu est une application qui identifie les lieux éco-responsables et qui nous met au défi concernant nos gestes du quotidien",
-    image: "/images/madu.png",
-    tags: ["React native", "SCSS"],
-    source: "https://github.com/joel2035/Application-Madu",
-    id: 1,
-  },
-  {
     title: "Moving-media",
     description:
       "Moving media est le spécialiste de l’affichage publicitaire sur support mobile : le taxi urbain, le bus de transport interurbains.",
     image: "/images/moving-media.png",
     tags: ["Javascript", "HTML & SCSS", "PHP", "IONOS"],
     source: "https://github.com/joel2035/Moving-Media",
-    visit: "https://movingmedia.fr/"
+    visit: "https://movingmedia.fr/",
+    id: 1
+  },
+  {
+    title: "Madu",
+    description: "Application Mobile - madu : Madu est une application qui identifie les lieux éco-responsables et qui nous met au défi concernant nos gestes du quotidien",
+    image: "/images/madu.png",
+    tags: ["React native", "SCSS"],
+    source: "https://github.com/joel2035/Application-Madu",
     id: 2,
   },
   {
@@ -34,7 +34,6 @@ export const projects = [
     image: "/images/xevent-dataviz.png",
     tags: ["Nextjs", "Nestjs", "MySQL"],
     source: "https://github.com/xeventDatavizProject/webapp",
-    visit: "https://parkmanagerapp.herokuapp.com/",
     id: 3,
   },
   {
@@ -51,8 +50,6 @@ export const projects = [
     image: "/images/mobile_app.jpeg",
     tags: ["Flutter", "NodeJs", "Firebase"],
     source: "#",
-    visit:
-      "https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/",
     id: 5,
   },
   {
